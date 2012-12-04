@@ -153,8 +153,7 @@ void loop() {
   digitalWrite(red, HIGH);
   digitalWrite(blue, LOW);
   
-  // flash white slowly and beep!
-  // Blink white five times.
+  // Be a siren and emergency lights forever.
   for(;;) {
     piezoBeep(8);
     led_toggle(red);
